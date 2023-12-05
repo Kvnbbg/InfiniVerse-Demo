@@ -1,15 +1,22 @@
-// Code of hidden tooltip
 // Get the button and healthy hint tooltip
 const healthHintButton = document.getElementById('healthHintButton');
 const healthyHint = document.getElementById('healthyHint');
 
-// Function to show the healthy hint
-function showHealthyHint() {
-  healthyHint.style.display = 'block'; // Show the healthy hint tooltip
+// Function to toggle the healthy hint tooltip
+function toggleHealthyHint() {
+  if (!healthyHint) {
+    console.error('Healthy Hint tooltip not found');
+    return;
+  }
+  healthyHint.style.display = (healthyHint.style.display === 'block') ? 'none' : 'block';
 }
 
 // Event listener for the health hint button
-healthHintButton.addEventListener('click', showHealthyHint);
+if (healthHintButton) {
+  healthHintButton.addEventListener('click', toggleHealthyHint);
+} else {
+  console.error('Health Hint Button not found');
+}
 
 
 
