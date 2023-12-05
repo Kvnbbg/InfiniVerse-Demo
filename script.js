@@ -1,3 +1,18 @@
+// Code of hidden tooltip
+// Get the button and healthy hint tooltip
+const healthHintButton = document.getElementById('healthHintButton');
+const healthyHint = document.getElementById('healthyHint');
+
+// Function to show the healthy hint
+function showHealthyHint() {
+  healthyHint.style.display = 'block'; // Show the healthy hint tooltip
+}
+
+// Event listener for the health hint button
+healthHintButton.addEventListener('click', showHealthyHint);
+
+
+
 // Code of links.html raw
 
 // Function to switch between different animation keyframes
