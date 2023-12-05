@@ -1,62 +1,64 @@
-# Underconstruction-Screen
+# InfiniVerse - Demo
 
-Welcome to the Underconstruction-Screen repository! This project provides a dynamic under-construction screen for your website, complete with a countdown timer. It's perfect for signaling ongoing development or maintenance.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Follow the build: https://www.replit.com/@kvnbbg
+![InfiniVerse](screenshot.jpg)
 
-## Table of Contents
+Welcome to InfiniVerse! This demo showcases the functionalities of our Dart-powered application, extracting specialized image data, enabling seamless sharing, and unlocking creativity through captivating simulations.
 
-- [About](#about)
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
-## About
-
-The Underconstruction-Screen project showcases a customizable under-construction page with a real-time countdown timer. It uses JavaScript to seamlessly calculate and display the time elapsed since the construction started, enhancing user experience during site maintenance.
+---
 
 ## Features
 
-- **Dynamic Countdown Timer:** Real-time updating of days, hours, minutes, and seconds.
-- **User Interaction:** Start or stop the countdown with a click of a button.
-- **Offline Support:** Disables the countdown button when the user is offline.
+- **Image Data Extraction:** Scrapes image data from webpages.
+- **Puzzle Simulation:** Simulates image pixelization as a puzzle.
+- **Platform Publication:** Publishes processed data on other platforms.
 
-## Getting Started
+---
 
-To integrate the Underconstruction-Screen into your project, follow these steps:
+## Installation
 
-### Prerequisites
+Clone the repository:
 
-Ensure you have the following prerequisites installed:
+```bash
+git clone https://github.com/Kvnbbg/InfiniVerse-Demo.git
+```
 
-- [List of Prerequisites]
-
-### Installation
-
-1. Clone the repository: `git clone https://github.com/Kvnbbg/Underconstruction-Screen-Space-Theme.git`
-2. Include the required files in your project.
-3. Customize the HTML structure and styles as needed.
+---
 
 ## Usage
 
-1. Open `index.html` in a browser.
-2. Click the "Start Countdown" button to initiate the countdown timer.
-3. Customize the under-construction message and additional styling in `index.html` and `style.css`.
+1. **Run the program in Dart.**
+2. **Follow the prompts to simulate data scraping and publication.**
 
-## Contributing
+---
 
-We welcome contributions! To contribute to the project:
+## Contribution
 
-1. Fork the project.
-2. Create a new branch: `git checkout -b feature/your-feature-name`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin feature/your-feature-name`
-5. Create a new pull request.
+We welcome contributions! Check the [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-Please read our [Contribution Guidelines](CONTRIBUTING.md) for more details.
+---
 
-## License
+## Code of Conduct
 
-This project is licensed under the [MIT License](LICENSE.md) - see the [LICENSE.md](LICENSE.md) file for details.
+This project is governed by a [Code of Conduct](CODE_OF_CONDUCT.md). All contributors are expected to adhere to its terms.
+
+---
+
+## User Guide / Demo
+
+Explore a detailed user guide and a demo of the project [here](https://replit.com/@kvnbbg/InfiniVerse?v=1) to understand how to use InfiniVerse effectively.
+
+---
+
+## Documentation / Help Center
+
+For detailed information, FAQs, and troubleshooting, visit our [Help Center](https://kvnbbg-creations.io/assets/html/faq-infiniverse.html).
+
+---
+
+## Additional README Enhancements
+
+- **Logos and Badges:** Consider adding a project logo or additional badges to highlight specific achievements or stats.
+  
+- **Advanced Markdown:** Utilize Markdown features like collapsible sections or embedded videos to
